@@ -166,7 +166,8 @@ li.navBar a:hover:not(.active) {
 /* Footer CSS */
 .footerContainer {
   padding: 50px 0px;
-  background-color: #fff8ee;
+  background-color: black !important;
+  color: white;
 }
 
 a.sitemap {
@@ -193,7 +194,7 @@ a.sitemap {
 }
 
 .grid .g-col-4.footerChild a {
-  color: black;
+  color: white;
   transition: color 0.3s ease-in-out;
 }
 
