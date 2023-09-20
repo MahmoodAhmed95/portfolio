@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-/*   Start navigation bar   */
+/*   Start navigation bar  used*/
 nav {
   height: 80px;
   background-color: black !important;
@@ -100,13 +100,11 @@ nav {
   }
   .list-item li:last-of-type {
     position: relative;
-}
+  }
 
-
-html body{
-  margin:0;
-  padding:0;
-
+  html body {
+    margin: 0;
+    padding: 0;
   }
   .list-item li:last-of-type {
     float: none;
@@ -160,9 +158,6 @@ li.navBar a:hover:not(.active) {
   color: white;
 }
 
-
-
-
 /* Footer CSS */
 .footerContainer {
   padding: 50px 0px;
@@ -207,7 +202,7 @@ a.sitemap {
   text-align: center;
   margin-top: 5%;
 }
-
+/* tell here used */
 #city {
   width: 20%;
   height: 40px;
@@ -242,7 +237,6 @@ img.placeImg {
   max-height: 60%;
   min-height: 60%;
   height: 300px;
-
   object-fit: cover;
 }
 .activitiesChild {
@@ -295,7 +289,7 @@ img.activitiesChild {
   text-align: center;
   color: black;
 }
-
+/* buttons used */
 .btn-primary {
   background-color: #ffa500;
   border: 1px solid #db8f01;
@@ -306,11 +300,11 @@ img.activitiesChild {
   /* --bs-btn-active-border: 1px solid orange; */
   --bs-btn-active-border-color: 1px solid #db8f01;
 }
-
 .btn-primary:hover {
   background-color: #ffc251;
   border: 1px solid #db8f01;
 }
+/* end used */
 
 #aboutFelha {
   background-color: #ffa500;
