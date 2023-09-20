@@ -176,7 +176,7 @@ a.sitemap {
 }
 
 .threeRows {
-  background-color: #fff8ee;
+  background-color: #fafafafa;
   padding: 3%;
   margin: 0 auto;
   border-radius: 20px;
@@ -230,7 +230,7 @@ a.sitemap {
   margin-bottom: 5%;
 }
 
-img.placeImg {
+img.portfImg {
   width: 100%;
   border-radius: 13px 13px 0px 0px;
   /* border-radius: 13px ; */
@@ -239,32 +239,31 @@ img.placeImg {
   height: 300px;
   object-fit: cover;
 }
-.activitiesChild {
+.portfChild {
   text-align: center;
   border: 1px solid #ffa500;
   border-radius: 14px;
   height: 100%;
 }
-.activitiesChild h3 {
+.portfChild h3 {
   font-weight: 100;
   text-align: center;
 }
-
+/* used */
 #activityTitle {
   margin-bottom: 5%;
 }
-
 #activitySection {
   margin-bottom: 7%;
 }
-.activitiesChild {
+.portfChild {
   text-align: center;
   border: 1px solid black;
   border-radius: 14px;
   height: 100%;
 }
 
-img.activitiesChild {
+img.portfChild {
   width: 100%;
   border-radius: 15px;
   max-height: 60%;
@@ -272,8 +271,9 @@ img.activitiesChild {
   height: 60%;
   object-fit: cover;
 }
+/* end */
 
-.activitiesChild h2 {
+.portfChild h2 {
   margin-top: revert;
   font-weight: 500;
   font-size: 25px;
@@ -283,7 +283,7 @@ img.activitiesChild {
   text-decoration: none;
 }
 
-.activitiesChild h3 {
+.portfChild h3 {
   font-weight: 100;
   font-size: 25px;
   text-align: center;
@@ -291,9 +291,9 @@ img.activitiesChild {
 }
 /* buttons used */
 .btn-primary {
-  background-color: #ffa500;
-  border: 1px solid #db8f01;
-  color: black;
+  background-color: black;
+  border: 1px solid black !important;
+  color: white !important;
 
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #db8f01;
@@ -301,8 +301,8 @@ img.activitiesChild {
   --bs-btn-active-border-color: 1px solid #db8f01;
 }
 .btn-primary:hover {
-  background-color: #ffc251;
-  border: 1px solid #db8f01;
+  background-color: gray;
+  border: 1px solid black;
 }
 /* end used */
 
@@ -537,12 +537,12 @@ main .container .categories .classfications ul li:not(:first-of-type) {
 .eapps-instagram-feed-posts-view {
   justify-content: center !important;
 }
-
+/* used */
 .paragraphStyle {
   font-size: 20px;
   font-weight: 100;
 }
-
+/* tell here */
 #instaTitle {
   margin-bottom: 6%;
 }
@@ -564,7 +564,7 @@ main .container .categories .classfications ul li:not(:first-of-type) {
 .eapps-instagram-feed-posts-view {
   gap: 3%;
 }
-
+/* used */
 .allContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -597,4 +597,25 @@ lord-icon {
     display: block;
     width: 100%;
   }
+}
+/* new */
+
+.header-center h3 {
+  background: #fafafa;
+  /* position: absolute; */
+  top: -0.8rem;
+  left: 50%;
+  /* margin-left: -160px; */
+  width: 320px;
+  text-align: center;
+  display: block;
+  color: #757575;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  padding: 0 !important;
+  font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial,
+    Sans-serif;
 }

@@ -9,7 +9,4 @@ router.get("/downloadResume", (req, res) => {
   const pdfFilePath = path.join(__dirname, "../public/Mahmood Ahmed.pdf");
   res.download(pdfFilePath, "Mahmood Ahmed.pdf");
 });
-router.get("/about", function (req, res, next) {
-  res.render("about", { title: "About Us" });
-});
 module.exports = router;
