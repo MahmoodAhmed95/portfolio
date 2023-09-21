@@ -271,6 +271,15 @@ img.portfChild {
   height: 60%;
   object-fit: cover;
 }
+img.contact {
+  float: right;
+  width: 50%;
+  border-radius: 15px;
+  max-height: 60%;
+  min-height: 60%;
+  height: 60%;
+  object-fit: cover;
+}
 /* end */
 
 .portfChild h2 {
